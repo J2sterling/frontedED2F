@@ -1,0 +1,106 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f3f4f6 0%, #f3f8ff 100%);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.title {
+    font-size: 3rem;
+    color: #333;
+    margin: 0.5em 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.linkContainer {
+    display: flex;
+    gap: 1.5em;
+    margin-bottom: 2em;
+}
+
+.createEventLink, .logoutButton, .link {
+    text-decoration: none;
+    padding: 0.8em 1.5em;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: bold;
+}
+
+.createEventLink {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.createEventLink:hover {
+    background-color: #388e3c;
+}
+
+.logoutButton {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.logoutButton:hover {
+    background-color: #d32f2f;
+}
+
+.link {
+    color: #3f51b5;
+    background-color: #e3f2fd;
+}
+
+.link:hover {
+    color: #303f9f;
+}
+
+.username {
+    color: #333;
+    font-weight: 500;
+}
+
+.eventsSection {
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.eventsSection h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1em;
+}
+
+.noEvents {
+    color: #777;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.chatToggleButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.chatToggleButton:hover {
+    background-color: #45a049;
+}
